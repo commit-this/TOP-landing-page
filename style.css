@@ -1,5 +1,7 @@
 body {
     display: flex;
+    height: 100vh;
+    margin: 0;
     flex-direction: column;
     font-family: Roboto, sans-serif;
 }
@@ -8,6 +10,7 @@ body {
 ul {
     list-style: none;
     display: flex;
+    gap: 16px;
 }
 
 a {
@@ -56,4 +59,5 @@ button {
     background-color: #1f2937;
     font-size: 18px;
     color: #e5e7eb;
+    padding: 16px;
 }
