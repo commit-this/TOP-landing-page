@@ -30,6 +30,9 @@ button {
 .nav {
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    padding-left: 100px;
+    padding-right: 100px;
 }
 
 .subtext, a {
@@ -50,6 +53,31 @@ button {
 .logo {
     font-size: 24px;
     color: #f9faf8;
+}
+
+.info {
+    text-align: center;
+}
+
+.info-header {
+    margin-top: 48px;
+    margin-bottom: 48px;
+    font-size: 36px;
+    font-weight: 800;
+    color: #1f2937;
+}
+
+.info-container {
+    display: flex;
+    justify-content: center;
+    gap: 48px;
+}
+
+.info img {
+    width: 100px;
+    height: 100px;
+    border: solid #3882f6;
+    border-radius: 8px;
 }
 
 .footer {
