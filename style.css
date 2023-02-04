@@ -37,14 +37,17 @@ button {
     background-color: #1f2937;
     display: flex;
     flex-direction: column;
+    align-items: center;
 }
 
 .nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-left: 64px;
-    margin-right: 64px;
+    /* margin-left: 64px;
+    margin-right: 64px; */
+    width: 100%;
+    max-width: 1280px;
 }
 
 .subtext, a {
@@ -54,10 +57,12 @@ button {
 
 .hero {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     gap: 128px;
-    padding: 128px;
+    width: 100%;
+    max-width: 1280px;
+    padding: 128px 0;
 }
 
 .hero-text {
