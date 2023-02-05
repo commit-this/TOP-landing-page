@@ -13,6 +13,10 @@ body {
     
 }
 
+.body-container {
+    flex: 1;
+}
+
 
 ul {
     list-style: none;
