@@ -10,6 +10,7 @@ body {
     margin: 0;
     flex-direction: column;
     font-family: Roboto, sans-serif;
+    
 }
 
 
@@ -47,7 +48,7 @@ button {
     /* margin-left: 64px;
     margin-right: 64px; */
     width: 100%;
-    max-width: 1280px;
+    max-width: 1200px;
 }
 
 .subtext, a {
@@ -61,7 +62,7 @@ button {
     align-items: center;
     gap: 128px;
     width: 100%;
-    max-width: 1280px;
+    max-width: 1200px;
     padding: 128px 0;
 }
 
@@ -89,6 +90,9 @@ button {
 .info {
     text-align: center;
     margin-bottom: 48px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .info-header {
@@ -104,10 +108,12 @@ button {
     justify-content: center;
     flex-wrap: wrap;
     gap: 16px;
+    width: 100%;
+    max-width: 1200px;
 }
 
 .info-box {
-    max-width: 200px;
+    /* max-width: 200px; */
 }
 
 .info img {
@@ -117,6 +123,8 @@ button {
 
 .quote {
     background-color: #e5e7eb;
+    display: flex;
+    justify-content: center;
 }
 
 .quote-container {
@@ -124,7 +132,8 @@ button {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 64px 128px;
+    max-width: 1200px;
+    padding: 32px 0;
 }
 
 .quote-text {
@@ -137,7 +146,6 @@ button {
     font-weight: bolder;
     font-size: 24px;
     align-self: flex-end;
-    padding: 8px 128px;
 }
 
 .action-container {
@@ -149,8 +157,14 @@ button {
     margin: 64px 128px;
     padding: 32px;
     border-radius: 8px;
+    width: 100%;
+    max-width: 1200px;
 }
 
+.action {
+    display: flex;
+    justify-content: center;
+}
 .action-big {
     font-size: 24px;
     font-weight: bold;
